@@ -1,9 +1,3 @@
-It seems like Markdown formatting isn't being rendered properly, which can happen if the text is pasted into an environment that doesn't interpret Markdown correctly (such as plain text). Let me help you refine the README to ensure it works perfectly with Markdown rendering on GitHub.
-
-Here's an updated, properly formatted version for your `README.md` file:
-
----
-
 # 🌸 **Make-A-Wish** 🌸  
 ![GitHub repo size](https://img.shields.io/github/repo-size/i-akb25/make-a-wish?color=ff69b4&style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/i-akb25/make-a-wish?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/i-akb25/make-a-wish?color=ff69b4&style=flat-square)
 
@@ -66,6 +60,19 @@ Here's an updated, properly formatted version for your `README.md` file:
    ```
 
 ---
+ --- ## 💕 **Screenshots**
+ 
+ | **Homepage** | **Nopage1 Interaction** |
+ |-----------------------------|-------------------------------| 
+ | ![Homepage]([https://via.placeholder.com/300?text=Homepage](https://drive.google.com/file/d/1OUX8ldJrSgzM4zwryt_tDO0Wb3bL-NZK/view?usp=sharing)) | ![NoPage]([https://via.placeholder.com/300?text=Popup](https://drive.google.com/file/d/1W6kYUyYoSoUTTv2C9tGK58ZgTMcbm1bJ/view?usp=sharing)) | 
+ 
+ | **Nopage** | **Yespage Interaction** | 
+ |-----------------------------|-------------------------------| 
+ | ![Nopage]([https://via.placeholder.com/300?text=Homepage](https://drive.google.com/file/d/1OUX8ldJrSgzM4zwryt_tDO0Wb3bL-NZK/view?usp=sharing)) | ![Yespage]([https://via.placeholder.com/300?text=Popup]([https://drive.google.com/file/d/1W6kYUyYoSoUTTv2C9tGK58ZgTMcbm1bJ/view?usp=sharing](https://drive.google.com/file/d/1fafWOapVmLSD6ejliqCDL9EVBIys56LZ/view?usp=drive_link))) | 
+ | **Form Popup** | **Surprise Image** | 
+ |-----------------------------|-----------------------------| 
+ | ![Form Popup](https://drive.google.com/file/d/1Z4pX4zzvjX4DxyS_vowcnx4FcKEMOm2q/view?usp=drive_link) | ![Surprise Image]((https://drive.google.com/file/d/1PJlWO6yAQQjp6rv8MzX_ZG9BRzoqH6j5/view?usp=drive_link)) |
+
 
 ## 💕 **Screenshots**
 
