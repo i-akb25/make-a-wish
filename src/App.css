@@ -1,0 +1,493 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Cursive', sans-serif;
+}
+
+@keyframes romanticBackground {
+  0% {
+    background-color: #f6d1d1; 
+  }
+  20% {
+    background-color: #f8b3b3; 
+  }
+  40% {
+    background-color: #fe8b8b; 
+  }
+  60% {
+    background-color: #fba1a1; 
+  }  
+  80% {
+    background-color: #f9caca; 
+  }
+  100% {
+    background-color: #f6d1d1; 
+  }
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: romanticBackground 10s ease infinite; 
+  color: #333;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 20px;
+  height: 80vh;
+  position: relative;
+}
+
+.watermark-button {
+  position: fixed;
+  bottom: 10px;            
+  right: 10px;             
+  font-size: 12px;         
+  color: #4B0082;          
+  background-color: transparent; 
+  border: none;            
+  cursor: pointer;         
+  font-weight: bold;       
+  font-style: italic;      
+  opacity: 0.7;            
+  z-index: 9999;           
+}
+
+.popup-image {
+  position: fixed;
+  bottom: 50px;            
+  right: 10px;             
+  width: 100px;            
+  height: auto;            
+  z-index: 10000;         
+}
+
+
+.container img {
+  width: 100%; 
+  height: auto; 
+  max-width: 250px; 
+  aspect-ratio: 1 / 1; 
+  object-fit: contain; 
+  margin-top: 20px; 
+  transition: transform 0.5s ease; 
+}
+
+.container img:hover {
+  transform: scale(1.5); 
+}
+
+.heart-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  overflow: hidden; 
+} /* Missing closing brace added here */
+
+.heart {
+  position: absolute;
+  font-size: 2rem; 
+  color: rgba(255, 0, 0, 0.7);
+  animation: fall 10s linear infinite; 
+  opacity: 0;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-100px) scale(0.5); 
+    opacity: 1; 
+  }
+  100% {
+    transform: translateY(100vh) scale(1.5); 
+    opacity: 0; 
+  }
+}
+
+.heart:nth-child(1) {
+  left: 10%;
+  animation-duration: 15s;
+  animation-delay: 0s;
+}
+
+.heart:nth-child(2) {
+  left: 30%;
+  animation-duration: 18s;
+  animation-delay: 3s;
+}
+
+.heart:nth-child(3) {
+  left: 50%;
+  animation-duration: 16s;
+  animation-delay: 1.5s;
+}
+
+.heart:nth-child(4) {
+  left: 70%;
+  animation-duration: 20s;
+  animation-delay: 5s;
+}
+
+.heart:nth-child(5) {
+  left: 90%;
+  animation-duration: 14s;
+  animation-delay: 2s;
+}
+
+.rose-container {
+  position: fixed;
+  bottom: 0; 
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none; 
+  overflow: hidden; 
+}
+
+.rose {
+  position: absolute;
+  font-size: 2rem; 
+  animation: rise 12s linear infinite; 
+  opacity: 0; 
+}
+
+@keyframes rise {
+  0% {
+    transform: translateY(100vh); 
+    opacity: 1; 
+  }
+  100% {
+    transform: translateY(-10%); 
+    opacity: 0; 
+  }
+}
+
+.rose:nth-child(1) {
+  left: 10%;
+  animation-duration: 18s;
+  animation-delay: 0s;
+}
+
+.rose:nth-child(2) {
+  left: 30%;
+  animation-duration: 20s;
+  animation-delay: 4s;
+}
+
+.rose:nth-child(3) {
+  left: 50%;
+  animation-duration: 16s;
+  animation-delay: 2s;
+}
+
+.rose:nth-child(4) {
+  left: 70%;
+  animation-duration: 22s;
+  animation-delay: 6s;
+}
+
+.rose:nth-child(5) {
+  left: 90%;
+  animation-duration: 15s;
+  animation-delay: 3s;
+}
+
+
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+  color: #d10a6e; 
+  transition: transform 0.3s ease;
+}
+
+h2:hover{
+  transform: scale(1.05);
+}
+
+h1:hover{
+  transform: scale(1.05);
+}
+
+
+.text-art {
+  text-align: center; 
+  font-size: 1.5rem; 
+  font-family: 'Cursive'; 
+  color: #bf0e37; 
+  margin: 20px 0; 
+  transition: transform 0.3s ease; 
+}
+
+.text-art:hover {
+  transform: scale(1.05); 
+}
+
+
+button, a {
+  padding: 12px 24px;
+  background-color: #ff6b81; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover, a:hover {
+  background-color: #ff4d6d; 
+  transform: scale(1.05);
+}
+
+.watermark-container {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.watermark-text {
+  font-size: 12px;
+  color: #4B0082;
+  font-family: 'Cursive', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-image {
+  display: none;             
+  position: fixed;           
+  bottom: 50px;
+  right: 10px;
+  width: 150px;               
+  height: auto;              
+}
+
+.watermark-container:hover .watermark-text {
+  visibility: hidden;         
+}
+
+.watermark-container:hover .popup-image {
+  display: block;             
+}
+
+
+.popup h2 {
+  text-align: center;
+  color: #ff69b4;
+}
+
+.popup-buttons button, .form-buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #ff6b81;
+  color: white;
+  border-radius: 8px;
+}
+
+.popup-buttons button:hover, .form-buttons button:hover {
+  background-color: #ff4d6d;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 12px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.status-message {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #ff69b4;
+}
+
+
+.yes-page-container,
+.no-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  max-width: 400px;
+}
+
+.yes-img {
+  width: 100%; 
+  height: auto; 
+  max-width: 250px; 
+  aspect-ratio: 1 / 1; 
+  object-fit: contain; 
+  transition: transform 0.5s ease; 
+}
+
+.yes-img:hover {
+  transform: scale(1.5); 
+}
+
+img {
+  max-width: 150px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease; 
+}
+
+img:hover {
+  transform: scale(1.5); 
+}
+
+.shy-img {
+  max-width: 110px;
+  margin-bottom: 20px;
+  transition: transform 0.5s ease;
+}
+
+.shy-img:hover {
+  transform: scale(1.5); 
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+}
+
+a:hover {
+  background-color: #ff4d6d;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .popup {
+    width: 90%;
+  }
+
+  button, a {
+    padding: 10px 16px;
+  }
+}
+
+
+.popup {
+  background-color: #ffe0e9; 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  max-width: 80vh;
+  width: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.popup h2 {
+  text-align: center;
+  color: #ff507a; 
+  margin-bottom: 20px;
+}
+
+.popup label {
+  display: block;
+  margin: 15px 0 5px 0; 
+  color: #ff507a; 
+}
+
+.popup input,
+.popup textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px; 
+  border-radius: 8px;
+  border: 1px solid #ff507a; 
+  background-color: #fff0f5; 
+  font-size: 1rem;
+}
+
+
+.form-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px; 
+  margin-top: 20px;
+}
+
+.form-buttons button {
+  flex: 1; 
+  background-color: #ff507a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  max-width: 150px; 
+}
+
+.form-buttons button:hover {
+  background-color: #ff7e9e; 
+}
+
+
+.status-message {
+  text-align: center;
+  margin-top: 15px;
+  color: #ff507a; 
+}
+
+
+.popup-content {
+  background-color: #ffd6e7; 
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+  color: #ff4070; 
+  margin-bottom: 20px;
+}
+
+.popup-content img {
+  margin-top: 20px;
+}
+
+.popup-buttons {
+  margin-top: 20px;
+}
+
+.popup-buttons button {
+  background-color: #ff507a;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.popup-buttons button:hover {
+  background-color: #ff7e9e;
+}
