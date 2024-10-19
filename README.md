@@ -78,7 +78,7 @@
 
 | **Homepage**                | **Popup Interaction**          |
 |-----------------------------|-------------------------------|
-| ![Homepage](https://via.placeholder.com/300?text=Homepage) | ![Popup](https://via.placeholder.com/300?text=Popup) |
+| ![Homepage](https://drive.google.com/file/d/1OUX8ldJrSgzM4zwryt_tDO0Wb3bL-NZK/view?usp=sharing) | ![Popup](https://via.placeholder.com/300?text=Popup) |
 
 | **Form Popup**                | **Surprise Image**          |
 |-----------------------------|-----------------------------|
