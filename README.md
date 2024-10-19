@@ -65,24 +65,15 @@
 
 | **Homepage**                | **Nopage Interaction**          |
 |-----------------------------|-------------------------------|
-| (![akb (2)](https://github.com/user-attachments/assets/cc0518ba-fef4-43a4-b6f0-3d617b1206b6)
-)
- ) | (![akb (3)](https://github.com/user-attachments/assets/c987a1f2-a9fd-4692-915e-ec2918b50ac1)
-) |
+| ![akb (2)](https://github.com/user-attachments/assets/cc0518ba-fef4-43a4-b6f0-3d617b1206b6) | ![akb (3)](https://github.com/user-attachments/assets/c987a1f2-a9fd-4692-915e-ec2918b50ac1) |
 
 | **Nopage Popup**                | **Yespage Image**          |
 |-----------------------------|-----------------------------|
-| (![akb (4)](https://github.com/user-attachments/assets/9fb5015d-f35d-4d65-bac3-c95286f331d3)
-) | (![akb (5)](https://github.com/user-attachments/assets/730eccfb-a00c-45d1-8ec6-c51eb8a265a2)
-) |
+| ![akb (4)](https://github.com/user-attachments/assets/9fb5015d-f35d-4d65-bac3-c95286f331d3) | ![akb (5)](https://github.com/user-attachments/assets/730eccfb-a00c-45d1-8ec6-c51eb8a265a2)|
 
 | **Surpriseform**                | **Wishform**          |
 |-----------------------------|-----------------------------|
-| (![akb (6)](https://github.com/user-attachments/assets/84e84d84-0184-4106-a6fd-e3e1dfc1cf79)
-)
-) | (![akb (1)](https://github.com/user-attachments/assets/638a46b9-bbf4-46ad-bdc0-8b5d8c8a30c6)
-)
-) |
+| ![akb (6)](https://github.com/user-attachments/assets/84e84d84-0184-4106-a6fd-e3e1dfc1cf79) | (![akb (1)](https://github.com/user-attachments/assets/638a46b9-bbf4-46ad-bdc0-8b5d8c8a30c6)|
 
 ---
 
