@@ -106,7 +106,7 @@ To set up this magical project locally, follow these steps:
 
 | **Surpriseform**                | **Wishform**          |
 |-----------------------------|-----------------------------|
-| ![akb (6)](https://github.com/user-attachments/assets/84e84d84-0184-4106-a6fd-e3e1dfc1cf79) | (![akb (1)](https://github.com/user-attachments/assets/638a46b9-bbf4-46ad-bdc0-8b5d8c8a30c6)|
+| ![akb (6)](https://github.com/user-attachments/assets/84e84d84-0184-4106-a6fd-e3e1dfc1cf79) | ![akb (1)](https://github.com/user-attachments/assets/638a46b9-bbf4-46ad-bdc0-8b5d8c8a30c6)|
 
 
 ---
