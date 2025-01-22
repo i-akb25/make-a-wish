@@ -40,10 +40,10 @@ const PopupForm = ({ closePopup }) => {
 
     emailjs
       .send(
-       'service_akb25',    
-      'template_8dic993',    
+       'REACT_PUBLIC_SERVICE_ID',    
+      'REACT_PUBLIC_TEMPLATE_ID',    
         templateParams,
-        '89v1yMps7lOBxhjZ0'  
+      'REACT_PUBLIC_USER_ID'  
       )
       .then((response) => {
         setStatusMessage('Wish successfully!');
